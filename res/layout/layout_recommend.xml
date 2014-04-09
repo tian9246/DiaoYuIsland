@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/"
+    xmlns:adsmogo="http://www.adsmogo.com"
+    android:id="@+id/ad_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <!-- xmlns:android="http://schemas.android.com/apk/res/android" -->
+
+    <com.clov4r.android.recommend.view.RecommendTitleView
+        android:id="@+id/title_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.clov4r.android.recommend.view.RecommendTitleView>
+
+    <com.clov4r.android.recommend.view.ViewFlow
+        android:id="@+id/viewflow"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/header_layout"
+        android:layout_below="@+id/title_view"
+        android:duplicateParentState="true" />
+
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.clov4r.android.recommend.view.TitleFlowIndicator
+            android:id="@+id/viewflowindic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:footerColor="#FFFFC445"
+            app:footerLineHeight="2"
+            app:selectedColor="#FFFFC445"
+            app:textColor="#FFFFFFFF"
+            app:textSize="20"
+            app:titlePadding="20" />
+    </LinearLayout>
+ 
+    <ProgressBar
+        android:id="@+id/loading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">夺回钓鱼岛</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">减肥天天测</string>
+    
+  
+    <string name="recommend">应用推荐</string>
+    <string name="help_us_title">帮助我们</string>
+    <string name="help_us_rate">推荐我们</string>
+  
+    <string name="help_us_close">关闭</string>
+    <string name="help_us_feedback">反馈</string>
+    <string name="no_net">无连接</string>
+    <string name="help_us_content">
+感谢您下载安装由MoboTeam出品的《减肥天天测》。这款小小的应用并不复杂，但我们细心地设计每一个细节，
+希望每一个用户在使用它的时候都感到方便、快捷。\n\n
+在物质条件越来越丰富的现在，越来越多的人意识到身体健康的重要性。我们衷心希望每一个Mobo的用户都拥有一个健康
+的身体。在使用这款APP来对您和您家人的身体健康情况进行简单测试的时候，如果出现体重过高等情况，希望您能
+通过合理的饮食及积极的锻炼来恢复正常的体重。在必要时请咨询正规医院的专业医生来获取必要的帮助。\n\n
+如果您喜欢这款应用，请花费1分钟的时间来向我们提出您的宝贵意见，或者在Market上为我们投上宝贵一票。
+祝您和您的家人身体健康，阖家幸福。\n\n
+MoboTeam敬上
+</string>
+    
+    <string name="data_download_failed">data_download_failed</string>
+    <string name="appTitle">减肥天天测</string>
+    <string name="bmia">过瘦</string>
+    <string name="bmib">偏瘦</string>
+    <string name="bmic">正常</string>
+    <string name="bmid">偏胖</string>
+    <string name="bmie">肥胖</string>
+    
+    <string name="sex">性别</string>
+    <string name="height">身高</string>
+    <string name="weight">体重</string>
+    
+    <string name="sa1">您的身材严重过瘦</string>
+    <string name="sa2">● 您的身材严重过瘦，建议您向医生咨询健康状况。</string>
+    <string name="sb1">您的身材偏瘦</string>
+    <string name="sb2">● 您的身材偏瘦，建议加强饮食营养。</string>
+    <string name="sc1">您的身材正常</string>
+    <string name="sc2">● 恭喜您，您的身材很标准。</string>
+    <string name="sd1">您的身材偏胖</string>
+    <string name="sd2">● 您的身材偏胖，建议平衡饮食，加强锻炼。</string>
+    <string name="se1">您的身材严重过胖</string>
+    <string name="se2">● 您的身材严重过胖，建议您向医生咨询健康状况。</string>
+    
+    <string name="ss1">体脂肪率:</string>
+    <string name="ss3">● 一般认为男性体脂肪率大于百分之二十五，女性大于百分之三十三是诊断为肥胖症的标准。</string>
+    <string name="network_changed">移动网络下会消耗流量，其产生的费用由运营商收取，建议您使用WLAN网络。是否继续？</string>
+    
+    <string name="please_download_mobo">为了达到最佳的播放效果，请先安装moboplayer播放器！</string>
+    
+</resources>

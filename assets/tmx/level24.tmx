@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="75" tileheight="75">
+ <tileset firstgid="1" name="wall" tilewidth="75" tileheight="75">
+  <image source="gfx/wall.png" width="300" height="375"/>
+  <tile id="0">
+   <properties>
+    <property name="ValOfWall" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="ValOfWall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="ValOfWall" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="ValOfWall" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="ValOfWall" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="ValOfWall" value="5"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="ValOfWall" value="6"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="ValOfWall" value="7"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="ValOfWall" value="8"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="ValOfWall" value="9"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="ValOfWall" value="10"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="ValOfWall" value="11"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="ValOfWall" value="12"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="ValOfWall" value="13"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="ValOfWall" value="14"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="ValOfWall" value="15"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="ValOfWall" value="-1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEAJiQTQam5ggDjFqqgcAtqwCdw==
+  </data>
+ </layer>
+ <layer name="块层 1" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxNzUkOACAIBEFc4+7/f+uQ9MFDBZkgDDOLUj9Zpmzeh3qlMx/IvG9UzwoC+cThX5LFrs298nlKEAEE
+  </data>
+ </layer>
+ <objectgroup name="对象层 1" width="6" height="6">
+  <object name="Trap" x="375" y="75">
+   <properties>
+    <property name="value" value="8"/>
+   </properties>
+  </object>
+  <object name="Player" x="300" y="0">
+   <properties>
+    <property name="value" value="1"/>
+   </properties>
+  </object>
+  <object name="RedMummy" x="375" y="375">
+   <properties>
+    <property name="value" value="21"/>
+   </properties>
+  </object>
+  <object name="Exit" x="450" y="375"/>
+  <object name="Trap" x="0" y="375">
+   <properties>
+    <property name="value" value="9"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

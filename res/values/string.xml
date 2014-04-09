@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">夺回钓鱼岛</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Slimming Everyday</string>
+    
+    
+    
+    
+    <string name="appTitle">Slimming Everyday</string>
+    <string name="bmia">Too thin</string>
+    <string name="bmib">Underweight</string>
+    <string name="bmic">Normal</string>
+    <string name="bmid">Overweight</string>
+    <string name="bmie">Obese</string>
+    
+    <string name="sex">Sex</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    
+    
+    <string name="sa1">You are too thin</string>
+    <string name="sa2"> You are too thin,we suggest you to seek advice from your doctor.</string>
+    <string name="sb1">You are underweight.</string>
+    <string name="sb2"> You are underweight, we suggest you to have a more nourishing diet.</string>
+    <string name="sc1">Your body weight is normal.</string>
+    <string name="sc2"> Congratulations! You have a standard bodysize.</string>
+    <string name="sd1">You are overweight.</string>
+    <string name="sd2"> You are overweight, we suggest you to have a balanced diet and take some physical training.</string>
+    <string name="se1">You are obese.</string>
+    <string name="se2"> You are obese,we suggest you to seek advice from your doctor.</string>
+    
+    <string name="ss1"> Body Fat : </string>
+    <string name="ss2"> %.</string>
+    <string name="ss3"> Normaly,if an adult male has a body fat over 25% or female over 32%,we consider him or her to have obesity.</string>
+    
+    
+    <string name="please_download_mobo">In order to achieve the best playback，please install moboplayer firstly！</string>
+</resources>

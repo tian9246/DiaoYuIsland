@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Nil</string>
+    <string name="verdion_code">1.2</string> 
+    <string name="app_versionname">Mobo</string>
+    <string name="play_again">Play Again</string>
+    <string name="add_playlist">Add_Playlist</string>
+    <string name="delete_file">Delete File</string>
+    <string name="play_last_file">Continue</string>
+    <string name="exit">Exit</string>
+    <string name="about_us">About Us</string>
+    <string name="clear_played_list">Clear History</string>
+    <string name="play_sys_mode">Play (System Mode)</string>
+    <string name="play_normal_mode">Play (Normal Mode)</string>
+    <string name="dialog_instructions">You don\'t need anything</string>
+    <string name="setting_playback">Playback</string>
+    <string name="setting_btn_seek_interval">Seek Interval</string>
+    <string name="setting_key_btn_seek_interval">setting_key_btn_seek_interval</string>
+    <string name="setting_file_list">File List</string>
+    <string name="setting_show_media_file_only">Show Media File Only</string>
+    <string name="setting_key_show_media_file_only">setting_key_show_media_file_only</string>
+    <string name="setting_show_file_ext_name">Show File Extensions</string>
+    <string name="setting_key_show_file_ext_name">setting_key_show_file_ext_name"</string>
+    <string name="setting_pcategory_playlist_title">PlayList</string>
+    <string name="setting_key_clear_history">setting_key_clear_history</string>
+    <string name="setting_clearhistory_title">Clear MediaFile</string>
+    <string name="setting_pcategory_default_playmode">Player Mode</string>
+    <string name="setting_key_set_systemplayer_default">setting_key_systemplayer_default</string>
+    <string name="setting_title_systemplayer_default">System Player Mode</string>
+    <string name="setting_pcategory_about_title">About</string>
+    <string name="setting_key_about">setting_key_about</string>
+    <string name="setting_title_about">About MoboPlayer</string>
+    <string name="setting_toast_string">Purge Finished!</string>
+    <string name="setting_pcategory_aboutsubtitle">Style of Subtitle</string>
+    <string name="setting_key_subtitle_textsize">setting_key_subtitle_textsize</string>
+    <string name="setting_title_subtitle_textsize">Change TextSize</string>
+    <string name="setting_key_subtitle_textcolor">setting_key_subtitle_textcolor</string>
+    <string name="setting_title_subtitle_textcolor">Change TextColor</string>
+    <string name="setting_key_showsubtitle_ornot">setting_key_show_subtitle_ornot</string>
+    <string name="setting_title_showsubtitle_ornot">Show Subtitle</string>
+    <string name="setting_pcategory_aboutbattery">About Battery</string>
+    <string name="setting_key_show_batterymsg_ornot">setting_key_show_battery_ornot</string>
+    <string name="setting_title_show_batterymsg_ornot">Show Battery Message And Move Name</string>
+    <string name="setting_pcategory_show_hidefile_ornot">About Files</string>
+    <string name="setting_key_show_hidefile">setting_key_show_hidefile</string>
+    <string name="setting_title_show_hidefile">Show Hidden File</string>
+    <string name="setting_key_fontcolor_test">setting_key_fontcolor</string>
+    <string name="setting_title_fontcolor_test">Choose Color</string>
+    <string name="setting_summary_seekinterval">Set seeking interval (seconds) for fast forwarding</string>
+    <string name="setting_summary_battery">Show clock , move\'name and battery information</string>
+    <string name="setting_summary_subtitle">Load the subtitle file automatically</string>
+    <string name="setting_summary_fontsize">Set font size for subtitle displaying from Large,
+		Medium and Small</string>
+    <string name="setting_summary_fontcolor">Set text color for subtitle displaying</string>
+    <string name="setting_summary_show_mediafile_only">Show media files only</string>
+    <string name="setting_summary_show_fileextension">Show file extensions</string>
+    <string name="setting_summary_show_hidefile">Show hidden files</string>
+    <string name="setting_summary_clear_history">To purge MediaPlay file, CANNOT undo</string>
+    <string name="active">Activate</string>
+    <string name="setting">Setting</string>
+    <string name="toast_msg_nosupport">This file cannot be played with System Player</string>
+    <string name="setting_key_home_operation">setting_key_home_operation</string>
+    <string name="setting_title_home_operation">Setting for home key</string>
+
+    <!-- new -->
+    <string name="dialog_message">Message</string>
+    <string name="phone_imei">IMEI:</string>
+    <string name="buy">Buy</string>
+    <string name="active_success"> Activated successfully!</string>
+    <string name="active_failure">Cannot activate. Please try it later. Thanks!</string>
+    <string name="waiting">Communicating with activation server, please hold
+		on...</string>
+    <string name="connect_net_failure">Cannot connect to activation server. Please check
+		network settings.</string>
+    <string name="sure">Confirm</string>
+    <string name="filelisttitle">video list</string> <!-- 视频列表 -->
+    <string name="no_sdcard">There\'s no SD Card , make sure it is usable.</string> <!-- 没有发现sdcard，请检查SDCard是否存在或已经加载。 -->
+    <string name="no_fileselected">There\'s no media directory , click here to set.</string> <!-- 没有设置媒体文件目录，请点击此处设置。 -->
+    <string name="file_empty">No file was found in media directory,click here to
+		find it or add media file.</string>
+    <!-- 媒体文件内容为空，请点击此处修改媒体文件目录或是添加文件。 -->
+    <string name="dirchoose">Choose the media directory</string> <!-- 媒体目录选择 -->
+    <string name="close">Close</string> <!-- 关闭 -->
+    <string name="cancel">Cancel</string> <!-- 取消 -->
+    <string name="previous_dir">Parent directory</string> <!-- 上一级 -->
+    <string name="filepath">Directory：</string> <!-- 文件路径 -->
+    <string name="filesize">Size：</string> <!-- 文件大小 -->
+    <string name="fileformat">Format：</string> <!-- 文件格式 -->
+    <string name="fileresolution">Resolution：</string> <!-- 分辨率 -->
+    <string name="filematrix">Rate：</string> <!-- 码率 -->
+    <string name="fileplaytime">Time：</string> <!-- 播放时长 -->
+    <string name="fileother">Other properties</string> <!-- 其他属性 -->
+    <string name="message">Message</string> <!-- 消息 -->
+    <string name="sure_cancel">Are you sure you want to delete the file?</string>
+    <!-- 确认删除该文件 -->
+    <string name="del">Delete</string> <!-- 删除 -->
+    <string name="detail">Property</string> <!-- 详细信息 -->
+    <string name="sort">Sorting</string> <!-- 排序 -->
+    <string name="sort_head">Sort by</string> <!-- 按 -->
+    <string name="select_filecount">Number of media folders chosen：</string>
+    <!-- 当前选中媒体文件夹个数 -->
+    <string name="create_thumb">Generating thumbnail ...</string> <!-- 生成缩略图 -->
+    <string name="refreshing">Refreshing...</string> <!-- 正在刷新 -->
+    <string name="scandirectory">Scan directory</string>
+    <string name="addfile_count">Number of media files added：</string>
+    <!-- 添加的媒体文件个数 -->
+    <string name="delfile_count">Number of media files deleted：</string>
+    <!-- 删除的媒体文件个数 -->
+
+    <string name="sure_exit">Are you sure you want to quit?</string>
+    <!-- 确认退出！ -->
+    <string name="soft_solution">Play by soft decoding mode</string> <!-- 软解压模式播放 -->
+    <string name="setting_catagory_title_media">Media library</string> <!-- 媒体库 -->
+    <string name="setting_preference_title_clearmedia">Clear media library</string> <!-- 清除媒体库 -->
+    <string name="setting_preference_title_clearmediapath">Close the set for media library</string>
+    <!-- 清除媒体目录设置 -->
+    <string name="setting_preference_title_clearall">Clear all</string> <!-- 清除全部 -->
+    <string name="file_not_exist">Can\'t open file,please ensure the file is existed
+		or try again after refresh media library.</string> <!-- 文件不存在！ -->
+    <string name="currnetpath">Current directory:</string> <!-- 当前路径 -->
+    <string name="findfiles_count">Number of files been deal with：</string>
+    <!-- 已经处理文件个数 -->
+    <string name="findfiles_totalcount">Number of media files found：</string>
+    <!-- 发现的媒体文件总数为 -->
+    <string name="select_cmplayer">This file can\'t be played by the system
+		player,
+		trying soft decoding mode.</string>
+    <!--
+         This file can\'t be played by the system player,please long press to 
+		it,and select soft decoding mode in the menu.
+    -->
+    <!-- 系统播放器无法正常播放该文件，请在列表中长按，并在上下文菜单中选择软解模式播放。 -->
+    <string name="setting_lpreference_title_updatefrequency">Update frequency</string> <!-- 更新频率 -->
+    <string name="setting_lpreference_summery_updatefrequency">The current state of update frequency ：</string>
+    <!-- 当前更新状态 -->
+    <string name="setting_cpreference_title_updatewifi">Update when wifi is enable</string>
+    <!-- 仅在有wifi连接下更新 -->
+
+    <string name="versiondialog_title">Message</string> <!-- 提示信息 -->
+    <string name="versiondialog_message">A newer version was published ,please click \'Yes\'
+		to download it.</string> <!-- 发现新版本，请点击\'是\'，下载新版本 -->
+    <string name="version_name">Version\'s name:</string>
+    <string name="pub_date">Publish date:</string>
+    <string name="change_log">Change logs:</string>
+    <string name="yes">Yes</string> <!--  -->
+    <string name="no">No</string> <!--  -->
+
+    <string name="light">Brightness：%d%%</string> <!-- 亮度 -->
+    <string name="seekto" formatted="false">Jump to：%s (%d%%)[%s%d]</string>
+    <!-- 跳转到 -->
+
+    <string name="setting_key_mediafile_select">setting_key_mediafile_select</string>
+    <string name="setting_preference_key_clearall">setting_preference_key_clearall</string>
+    <string name="setting_preference_key_clearmedia">setting_preference_key_clearmedia</string>
+    <string name="setting_preference_key_clearmediapath">setting_preference_key_clearmediapath</string>
+    <string name="setting_listpreference_key_updateversion_frequency">setting_lpreference_key_updateversion_frequency</string>
+    <string name="setting_checkpreference_key_updateversion_wifi">setting_cpreference_key_updateversion_wifi</string>
+    <string name="setting_exit_completely">setting_exit_completely</string>
+
+    <!-- add by lyw . -->
+    <string name="entrance_welcome_title" formatted="false">		%sWelcome to use
+		the fourth beta version of
+		MoboPlayer%s\n\n</string>
+    <string name="entrance_welcome" formatted="false">		The software is still
+		in testing phase
+		currently,Welcome to submit
+		your suggestions
+		for
+		improvement and bugs,
+		we will attaches great
+		importance to you
+		feedback.\n
+		This time we will
+		solicit 5000 testers
+		publicly ,we hope you
+		can submit
+		you email address
+		to ensure the
+		quality of the feedback of
+		test,
+		thanks for your
+		cooperation.\n
+		You can take the "next" button to
+		get an account or
+		login by your
+		account.</string>
+    <string name="entrance_selection_title1">No Mobo\'s beta account?</string>
+    <string name="entrance_selection_title2">Have gotten a Mobo\'s beta account?</string>
+    <string name="entrance_selection_but1">register</string>
+    <string name="entrance_selection_but2">login</string>
+    <string name="entrance_register_title">Your email ,such as : josh@gmail.com</string>
+    <string name="entrance_login_title">Login by Mobo\'s beta account:</string>
+    <string name="entrance_login_title2">Email:</string>
+    <string name="entrance_login_title3">Account number:</string>
+    <string name="entrance_progress_title">Your mobile phone is to communicate with the
+		server, this process may take a few minutes. Please wait</string>
+    <string name="email_is_null">Please enter you Email.</string>
+    <string name="id_is_null">Please enter you Identifier.</string>
+    <string name="email_been_used">The email has been registered. Please use another.</string>
+    <string name="email_not_correct">The format of your email is not correct,please
+		write again.</string>
+    <string name="email_usernum_not_fit">The user Identifier is not matched with you
+		email.Please write again.</string>
+    <string name="register_succesfull">Registered succefull.</string>
+    <string name="register_succesfull_notify">You user account number is:%d , if you forget
+		it,you can send an email to register@moboplayer.com to get it again.</string>
+    <string name="register_failed">Registered failed.</string>
+    <string name="register_failed_notify">Registered failed,please try again later.</string>
+    <string name="login_failed">Login failed.</string>
+    <string name="login_failed_notify">Login failed,please try again later.</string>
+    <string name="login_success">Login successfully.</string>
+    <string name="login_success_notify">Login successfully,and you can click the button to
+		go on.</string>
+    <string name="next_step">Next step</string>
+    <string name="preverous_step">Preverous step</string>
+    <string name="cancels">Cancel</string>
+    <string name="returns">Return</string>
+    <string name="login">Login</string>
+    <string name="complate">OK</string>
+    <string name="connected_exception">Something has to be wrong while connected to the
+		server,please try again later.</string>
+    <string name="forget_number" formatted="false">		%sIf you forget
+		you
+		account number,%sclick here%sto send an email with a title of "get
+		my
+		beta num" to ourmailbox(register@moboplayer.com),we\'ll give your
+		account number later by email.%s</string>
+    <string name="version_update">Version update</string>
+    <string name="skip">Skip</string>
+    <string name="get_higher_version" formatted="false">Your handset
+		is:%s\n
+		cpu\'s framework is:%s\n version of MoboPlayer:%s \nYou can get a
+		higher
+		performance by using version of %s,please click "Download" to
+		get
+		MoboPlayer of version %s</string>
+    <string name="get_lower_version" formatted="false">Your handset
+		is:%s\n
+		cpu\'s framework is:%s\n version of MoboPlayer:%s \n you may have some
+		problems if using current version of MoboPlayer ,please click
+		"Download" to get
+		MoboPlayer of version %s</string>
+    <string name="download">Download</string>
+    <string name="help">Help</string>
+    <string name="lock_screen">Screen has been locked,you can press "Menu" to
+		unlock it.</string>
+    <string name="unlock_screen">Screen has been unlocked.</string>
+    <string name="battery_lock">Battery:</string>
+    <string name="progress_lock">Progress:</string>
+    <string name="detail_sound">SoundTrack:</string>
+    <string name="detail_subtitle">Subtitle:</string>
+    <string name="unknown">Unknown</string>
+    <string name="screen_lock_setting">Screen lock setting</string>
+    <string name="horizontal_only">Screen Rotation </string>
+    <string name="character_set">Character Set</string>
+    <string name="chi_subtitle">Chinese subtitle</string>
+    <string name="eng_subtitle">English subtitle</string>
+    <string name="setting_file_scan_title">Types of file need to scan.</string>
+    <string name="select_item_auto">Full Auto</string>
+    <string name="select_item_close">Close All</string>
+    <string name="select_item_soft">Software decoding all</string>
+    <string name="select_item_hard">Software decoding all</string>
+    <string name="select_item_add">Add new type</string>
+    <string name="select_quit">Quit</string>
+    <string name="add_new_type_title">Add a new type</string>
+    <string name="ok">OK</string>
+    <string name="type_has_exists">This type has been existed.</string>
+    <string name="select_dialog_title">Please select decoding mode</string>
+    <string name="select_auto">Auto</string>
+    <string name="select_close">Close</string>
+    <string name="select_soft">Software decoding</string>
+    <string name="select_hard">Hardware decoding</string>
+    <string name="scan_type_changed">Media file types have been changed,refrush the play
+		list?</string>
+    <string name="volume_setting">Volume keys setting.</string>
+    <string name="screen_lock_tips">Screen lock tips</string>
+    <string name="media_file_message" formatted="false">Count:%d Duration:%s
+		Size:%s</string>
+    <string name="media_file_count">Count:</string>
+    <string name="media_file_sum_size">Size:</string>
+    <string name="background_setting_dialog">Set background color. </string>
+    <string name="show_help">Select "Confirm" item from menu to save the
+		setting.</string>
+    <string name="background_color_title">Select a color for the main interface.</string>
+    <string name="muti_subtitle">This video contains more than one subtitles,please
+		select one.</string>
+    <string name="muti_sound_track">This video contains more than one
+		soundtracks,please select one.</string>
+    <string name="muti_subtitle_sound"> This video contains more than one subtitles and
+		soundtracks,please select a couple of.</string>
+    <string name="start_play">Play</string>
+    <string name="cannot_play">Can not play,please try again later.</string>
+    <string name="background_color">Background</string>
+    <string name="play_list">PlayList</string>
+    <string name="default_color">Default</string>
+    <string name="setting_title">Setting</string>
+    <string name="action_replay">Replay</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_attribute">Property</string>
+    <string name="action_hard">Hard-Decoding</string>
+    <string name="action_soft">Soft-Decoding</string>
+    <string name="action_add">Add to play list</string>
+    <string name="left_channel_open">L-Channel</string>
+    <string name="right_channel_open">R-Channel</string>
+    <string name="left_channel_close">L-Channel</string>
+    <string name="right_channel_close">R-Channel</string>
+    <string name="help_text1">Click here if you want to browse files.</string>
+    <string name="mistake_message">I\'m sorry that MoboPlayer run abnormally in your
+		device.It will help me to fix this problem if you can report the bug
+		to us . Thanks a lot.</string>
+    <string name="submit_mistake">Report bug</string>
+    
+    <string name="play_next">Play next</string>
+    <string name="no_next">It is already the last one.</string>
+    <string name="sto_play">Stop</string>
+    <string name="need_play_next">Play next automatic.</string>
+    <string name="continue_download">ContinueToDownload</string>
+    <string name="getting_url_list">Getting download URLs,please wait.</string>
+    <string name="no_net">Can\'t connect to the network, please try again
+		later.</string>
+    <string name="download_failed">Download failed,please try again later.</string>
+    <string name="file_size">File size : </string>
+    <string name="has_download" formatted="false">Has download :</string>
+    <string name="uncompressing">Uncompressing... Please wait for a while.</string>
+    <string name="uncompressing_failed">Uncompress failed,please try again later.</string>
+    <string name="download_from_market">DownloadFromMarket</string>
+    <string name="download_from_mobo">DownloadFromMobo</string>
+    <string name="plugin_page_info">		Thank you for your
+		using MoboPlayer, we would like
+		you give us feedback if
+		you have any
+		problems or suggestions.
+
+		MoboPlayer
+		is a high quality multi-media
+		player on Android which support almost
+		all video formats.
+		In order to
+		make better use of the CPU capacity, we
+		have optimized and
+		built
+		different video codec packages for different
+		phone platform.
+		So you
+		should download the properly codec package. We
+		are sorry for
+		making
+		trouble with you, but consider the Android hardware
+		platform\'s
+		variety, this is the best way we could use.</string>
+    <string name="plugin_page_info_version">The version of codec
+		package that you need to
+		download is：%s</string>
+    <string name="plugin_page_info2">		We suggest you to
+		download and update codec package
+		from Android Market.
+		If you couldn\'t
+		connect the Internet temporarily,
+		you can install the
+		codec package by
+		using offline way.</string>
+    <string name="plugin_page_info3">If you can not use
+		Android Market, we suggest you to
+		use online update way. If you
+		couldn\'t connect the Internet
+		temporarily, you can install the codec
+		package by using offline way.</string>
+    <string name="plugin_page_info4" formatted="false">click continue and
+		codec package will auto-download.
+		You %s phone should use codec
+		package
+		on %s platform</string>
+    <string name="plugin_get_dialog"><a href="">Instructions for offline installation of codec package</a></string>
+    <string name="plugin_dialog_info">		1.
+		Visit our home
+		page: moboplayer.com</string>
+    <string name="plugin_dialog_info2" formatted="false">		2. Download \"%s\"
+		codec package</string>
+    <string name="plugin_dialog_info3" formatted="false">		3. Install the
+		codec package or copy it to directory:
+		sdcard/
+		.mobo/library</string>
+    <!-- , make sure the file name is %s -->
+    <string name="plugin_dialog_info4" formatted="false">		4. Run
+		moboplayer
+		to
+		complete the installation
+		If you can not
+		get codec
+		package file,
+		%splease
+		click here%s to get from us
+		by e-mail.
+		Because
+		of the messages
+		are handled
+		manually, so you may not be get
+		answer
+		immediately.</string>
+    <string name="codec_toast">Open MoboPlayer after download and install the
+		codec package.</string>
+    <string name="light_sound_save">Save brightness and volume </string>
+    <string name="streaming_open">Open</string>
+    <string name="content_is_null">Please input a valid url.</string>
+    <string name="streaming">Streaming</string>
+    <string name="delete_url">Are you sure you want to delete it?</string>
+    <string name="clear_cache">Clear all historical urls</string>
+    <string name="new_play_list">Create new playlist.</string>
+    <string name="refrush_media">Media libraries have been changed,will you rescan
+		them?</string>
+    <string name="online_media">OnlineMedia</string>
+    <string name="setting_operation">Operation setting</string>
+    <string name="setting_double_click_back_to_quit">Exit main interface by double-click.</string>
+    <string name="setting_key_double_click_to_quit">setting_key_double_click_to_quit</string>
+    <string name="notify_quit_after_next_back">		Double-click to exit Mobo.</string>
+    <string name="setting_skip_checkbox_title">Seek Interval By Percent</string>
+    <string name="setting_skip_checkbox_key">setting_skip_checkbox_key</string>
+    <string name="quick_item_title_rename">Rename</string>
+    <string name="file_not_exited">This file is not inexistent.</string>
+    <string name="file_rename_failed">Rename failed.</string>
+    <string name="scan_in_bg">Hide</string>
+    <string name="play_next_di">第</string>
+    <string name="play_next_ji">集</string>
+    <string name="no_media_scan_all">Scan SDCard</string>
+    <string name="no_media_scan_auto">Quick Scan</string>
+    <string name="no_media_browse">Directory browsing</string>
+    <string name="key_words_video">video</string>
+    <string name="key_words_movie">movie</string>
+    <string name="key_words_film">film</string>
+    <string name="key_words_mtv">mtv</string>
+    <string name="key_words_dian_ying">电影</string>
+    <string name="key_words_dian_shi_ju">电视剧</string>
+    <string name="scan_start">Scan</string>
+    <string name="scan_cancel">Cancel</string>
+    <string name="notify_media_directory_found">Here is the list of directories may be contain
+		video files,please select what you need and click "Scan".</string>
+    <string name="notify_media_directory_not_found">No media directory was found,you can try
+		"Scan
+		SDCard" or set some media libraries manually.</string>
+    <string name="no_play_list">Please create a playlist firstly.</string>
+    <string name="problem">		Codec files will be installed failed,while install
+		Moboplay by some pc
+		softwares.You will find more detail in our website
+		: moboplayer.com</string>
+    <string name="encrypt_title">Encryption</string>
+    <string name="encrypt_message">Please enter the password.</string>
+    <string name="encrypt_content_null">The password you entered is empty.</string>
+    <string name="encrypt_wrong">Wrong password.</string>
+    <string name="encrypt_reset_title">Reset password</string>
+    <string name="encrypt_reset_old">Please enter the old password</string>
+    <string name="encrypt_reset_new">Please enter the new password</string>
+    <string name="encrypt_watch_from_out">This file has been encryption, please enter the password to watch.</string>
+    <string name="encrypt_enter_count" formatted="false">You have tried %d times，%d times left.</string>
+    <string name="delete_from_list">Delete from list</string>
+    <string name="wait_scan">Searching ,please wait...</string>
+    <string name="random_color">Random Change Color When Startup</string>
+    <string name="thumb_anim">Thumbnail animation</string>
+    <string name="user_help_online_help">Online help</string>
+    <string name="user_help_pass">Pass</string>
+    <!-- add by lyw . -->
+
+    <string name="update_manul">Check New Version</string>
+    <string name="checking">Checking New Version...</string>
+    <string name="setting_key_update_manul_preference">setting_key_preference_updatemanul</string>
+    <string name="already_lastversion">You are using the latest version.</string>
+
+    <!-- 11-02-09 add -->
+    <string name="setting_cpreference_key_thumb">setting_cpreference_key_thumb</string>
+    <string name="setting_lpreference_key_volume">setting_lpreference_key_volume</string>
+    <string name="setting_lpreference_key_filelayout">setting_lpreference_key_filelayout</string>
+    <string name="setting_cpreference_key_default_palymode">setting_cpreference_key_default_playmode</string>
+    <string name="setting_cpreference_title_thumb">Using Media Thumbnail </string>
+    <string name="setting_lpreference_title_volume">Gesture Sensitivity</string>
+    <string name="setting_lpreference_title_filelayout">Display style</string>
+    <string name="setting_cpreference_title_default_playmode">Default Using Soft-Decoding</string>
+    <string name="play_use_hard">Using Hardware-Decoding Playback</string>
+
+    <!-- 11-02-18 add -->
+    <string name="setting_lpreference_change_summery">Level of gesture adjustment for volume and sound</string>
+    <string name="main_activity_input_name">Please input the file name</string>
+    <string name="main_activity_list_null">Name of play list can\'t be null</string>
+
+    <!-- 11-03-06 -->
+    <string name="addall_file">Add all files to play list.</string>
+    <!-- 全部文件添加到播放列表 -->
+    <string name="delplaylist">Are you sure you want to delete this file?</string>
+    <!-- 确定删除此文件？ -->
+    <string name="del_success">Delete successfully.</string> <!-- 删除成功。 -->
+    <string name="del_failure">Delete failed,please try again later.</string>
+    <!-- 删除失败，请重试。 -->
+    <string name="allplaylist">All of play list</string> <!-- 全部播放列表： -->
+    <string name="empty_playlist">Empty play list.</string> <!-- 列表为空！ -->
+    <string name="playlist">Play list</string> <!-- 播放列表 -->
+    <string name="create">New list</string> <!-- 新建 Create a new one. -->
+
+    <string name="inputfilename">Enter the file name</string> <!-- 输入文件名： -->
+    <string name="format_filename">Name of play list cann\'t be null,and some
+		characters(such as \'/\') are forbidden.</string>
+    <!-- 播放列表名称不能为空或不能含有“/”等字符。 -->
+
+    <string name="help_us_title">Help Us</string>
+    <string name="help_us_feedback">Feedback</string>
+    <string name="help_us_close">Close</string>
+    <string name="help_us_rate">Review</string>
+    <string name="help_us_content">		Firstly, thanks for your using. And if you have
+		used it carefully, you should
+		find we are developing Mobo heart and
+		soul, day and night. Though we
+		are ordinary people, our dream is
+		extraordinary. The dream is let Mobo
+		be a perfect video player on
+		Android. Perfection means more effect and
+		more difficulty, but we will
+		never give up.
+
+		If you think that Mobo has made your life better, just
+		say it using
+		Market Review. Your praise will be our power.
+
+		In order to
+		get a better quality, we have used a lot of undocumented
+		Android APIs.
+		Now we can\'t guarantee Mobo will work perfectly on all
+		android devices
+		because of our limited test environment. It just so
+		happens that you
+		got a problem, we hope you could notify us because it
+		may help others
+		also. Thanks.</string>
+    <string name="recommend">recommend</string>
+    <string name="wifi_is_enabled">Wifi is not enabled</string>
+    <string name="recommend_download_failed">Download failed,please try again later.</string>
+    <string name="exit_completely">Kill Process when exit</string>
+    <string name="can_not_save_setting"> If you choose this maybe can not save setting </string>
+    <string name="setting_show_file_name_circular">Display movie name circular</string>
+    <string name="data_download_failed">Download failed,please try again later</string>
+    <string name="setting_screen_off">Continue to play while off-screen</string>
+    <string name="action_title_refrush">Refrush</string>
+    <string name="action_title_search">Search</string>
+    <string name="guide_entrance">Entrance</string>
+	
+    <string name="network_changed">You are using mobile network,which will expend some traffics.Will you remain?</string>
+    
+    
+</resources>

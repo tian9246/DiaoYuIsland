@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <LinearLayout
+        android:id="@+id/app_info_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/app_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/recommend_default_app" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/app_name"
+                style="@style/ShadowStyleForBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.应用名称："
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/app_author"
+                style="@style/ShadowStyleForBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="应用作者："
+                android:textColor="@color/text_light_grey"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/app_info_layout"
+        android:gravity="center"
+        android:paddingLeft="15dp" >
+
+        <RatingBar
+            android:id="@+id/app_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/app_property" />
+
+        <TextView
+            android:id="@+id/app_property"
+            style="@style/ShadowStyleForBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app_rating"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/app_property_img"
+            android:text="免费"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/app_property_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/app_rating"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/recommend_property_img" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/app_count"
+        style="@style/ShadowStyleForBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="10"
+        android:textColor="@color/text_light_grey"
+        android:textSize="12sp" />
+
+</RelativeLayout>

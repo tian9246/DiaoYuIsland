@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="tag_grid_adapter" type="id"></item>
+    <item name="tag_anim" type="id"></item>
+    <item name="tag_recommend_index" type="id"></item>
+    
+</resources>

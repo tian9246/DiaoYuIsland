@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical" 
+    >
+
+    <!--
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    -->
+
+    <ListView
+        android:id="@+id/recommend_data_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </ListView>
+
+    <!--
+	<TextView android:id="@+id/textLabel" android:gravity="center_vertical|center_horizontal"
+		android:text="0" android:layout_width="fill_parent" android:textStyle="bold"
+		android:layout_height="wrap_content" android:textSize="150dp"></TextView>
+    </ScrollView>
+    -->
+
+</RelativeLayout>
